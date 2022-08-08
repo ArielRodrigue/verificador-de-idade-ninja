@@ -1,0 +1,53 @@
+#titul {
+    color: rgb(226, 169, 11);
+}
+
+body {
+    background-image: url("backgroundnaruto.jpg");
+    font: normal 15pt Arial;
+    text-align: center;
+}
+
+header {
+    color: white;
+    text-align: center;
+    background-image: url("cabeçalho.jpg");
+    border-radius: 50px;
+    width: 800px;
+    margin: auto;
+    
+}
+
+section {
+    background:  white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 500px;
+    margin: auto;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.315);
+    margin-top: 40px;
+}
+
+#botao {
+    background-color: #d18624c0;
+    border-radius: 20px;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
+
+
+footer {
+    color: black;
+    text-align: center;
+    font-style: italic;
+    background-image: url("cabeçalho.jpg");
+    border-radius: 50px;
+    width: 170px;
+    margin: auto;
+    margin-top: 260px;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="exercicio2.css.css">
+    <title>Verificador de idade</title>
+</head>
+<body>
+    <Header>
+        <h1 id="titul"><strong>Verificador de Idade</strong></h1>
+    </Header>
+
+    <section>
+        <div>
+            <p>Ano de Nascimento:
+                <input type="number" name="txtano" id="txtano" min="0" >
+            </p>
+
+            <p>Sexo:
+                <input type="radio" name="radsex" id="mas" checked>
+                <label for="mas">Shinobi (M)</label>
+                <input type="radio" name="radsex" id="fem">
+                <label for="fem">Kunoichi (F)</label>
+            </p>
+
+            <p>
+                <input type="button" id="botao" value="verificar" onclick="verificar()">
+            </p>
+
+        </div>
+
+        <div id="res">
+            <p>Preencha acima para ver o resultado!</p>
+        </div>
+    </section>
+
+    <footer>
+        <p><strong>&copy; ÉOsGuris</strong></p>
+    </footer>
+
+    <script src="exercico2.js.js"></script>
+</body>
+</html>
